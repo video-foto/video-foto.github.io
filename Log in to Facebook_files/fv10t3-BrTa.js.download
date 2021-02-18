@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["Ufq6Y"]); }
+
+__d("getReferrerURI",["ErrorUtils","URI","isFacebookURI"],(function(a,b,c,d,e,f){"use strict";e.exports=c;var g,h;function c(){if(a.PageTransitions&&a.PageTransitions.isInitialized())return a.PageTransitions.getReferrerURI();else{var c=(g||(g=b("ErrorUtils"))).applyWithGuard(function(a){return new(h||(h=b("URI")))(a)},null,[document.referrer]);return c&&b("isFacebookURI")(c)?c:null}}}),null);
